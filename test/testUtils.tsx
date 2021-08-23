@@ -2,7 +2,7 @@ import React from 'react'
 import {createStore, Store} from 'redux'
 import {Provider} from 'react-redux'
 import {render} from '@testing-library/react'
-import {RootState, RootStore} from '../src/stories/store/RootStore'
+import {RootState, RootStore} from '../stories/store/RootStore'
 
 const store: Store<RootState> = createStore(RootStore.reducers)
 

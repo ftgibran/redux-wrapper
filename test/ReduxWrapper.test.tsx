@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import {render, cleanup} from './testUtils'
-import {RootStore} from '../src/stories/store/RootStore'
+import {RootStore} from '../stories/store/RootStore'
 
 describe('ReduxWrapper', () => {
   afterEach(() => cleanup())

@@ -1,5 +1,5 @@
 import {LanguageDispatcher} from './dispatchers/LanguageDispatcher'
-import {ReducerWrapper} from '../../../ReducerWrapper'
+import {ReducerWrapper} from '../../../src'
 import {AppAction, AppState, AppType} from '../types'
 import {RootState} from '../RootStore'
 

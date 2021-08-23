@@ -1,5 +1,5 @@
 import {Action} from 'redux'
-import type {ReducerApplied} from '../../types'
+import type {ReducerApplied} from '../../src'
 
 export type AppType = 'SET_LANGUAGE'
 

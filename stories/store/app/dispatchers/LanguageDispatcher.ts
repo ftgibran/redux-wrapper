@@ -1,4 +1,4 @@
-import {DispatcherWrapper} from '../../../../DispatcherWrapper'
+import {DispatcherWrapper} from '../../../../src'
 import {AppAction, AppReducer, AppState, AppType} from '../../types'
 
 export class LanguageDispatcher extends DispatcherWrapper<
