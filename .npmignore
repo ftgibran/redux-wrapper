@@ -1,0 +1,11 @@
+/.storybook
+/coverage
+/node_modules
+/src
+/test
+
+.babelrc
+.eslintrc.js
+.gitignore
+.prettierrc.js
+jest.config.js
